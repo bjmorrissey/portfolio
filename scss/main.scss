@@ -1,0 +1,28 @@
+@import 'variables';
+@import 'header';
+@import 'landingpage';
+@import 'footer';
+@import 'about';
+@import 'projects';
+@import 'contact';
+@import url('/font-awesome-4.6.3/css/font-awesome.min.css');
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: $font-primary;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: $color-dark-primary;
+  position: relative;
+  transition: all 0.25s ease;
+}
